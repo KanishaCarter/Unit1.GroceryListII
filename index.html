@@ -7,41 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Header inside div container-->
     <div class="header-container">
         <header><h1>Organized Grocery List</h1></header>
     </div>
-
+    <!--div holds pantry and freezer items-->
     <div class="whole-pantry">
     <div class="h2-container">
         <h2>Pantry Items</h2>
     </div>
+    <!--div container holds pantry lists and displays as flex-->
     <div class="pantry-container" style="display: flex;">
+        <!--section for canned items displayed in inline block format including a gap-->
         <section class="canned" style="display: inline-block; gap: 20px;">
             <h3>Canned</h3>
+            <!--unordered List of canned pantry items using symbols-->
                 <ul style="list-style-type:symbols();">
                     <li>Corn</li>
                     <li>Peas</li>
                     <li>Sweet Peas</li>
                 </ul>
             </section>
+            <!--section for pantry dry goods with a display as inline-block-->
         <section class="dry-goods" style="display: inline-block;">
             <h3>Dry Goods</h3>
+            <!--ordered list of dry goods using uppercased roman numerals-->
             <ol style="list-style-type:upper-roman;">
             <li>Rice</li>
             <li>Spaghetti Noodles</li>
             </ol>
         </section>
+        <!--section holds an image of a pantry-->
         <section style="display: inline-block;">
             <img src="pantry.png" alt="pantry pic"/>
         </section>
     </div>
-
-
+    
+    <!--div holds freezer header-->
     <div class="h2-container">
         <h2>Freezer Items</h2>
     </div>
     
+    <!--div container holds freezer items displayed as flex-->
     <div class="freezer-container" style="display: flex;">
+        <!--section holds frozen meats with symbols and inline-block display-->
         <section class="meat" style="display: inline-block;">
             <h3>Meat</h3>
                 <ul style="list-style-type:symbols();">
@@ -50,6 +59,7 @@
                     <li>Salmon</li>
                 </ul>
             </section>
+            <!--section holds ordered list of frozen veggies in uppercased roman numeral format-->
         <section class="veggies" style="display: inline-block;">
             <h3>Veggies</h3>
             <ol style="list-style-type:upper-roman;">
@@ -57,6 +67,7 @@
             <li>Spinach</li>
             </ol>
         </section>
+        <!--section holds image of inside of freezer-->
         <section style="display: inline-block;">
             <img src="freezer.png" alt="freezer pic"/>
         </section>
