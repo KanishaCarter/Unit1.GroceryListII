@@ -1,43 +1,54 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(231, 209, 168);
+}
+
+.header-container {
+    background-color: rgb(255, 187, 0);
+    margin-bottom: 50px;
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    border: 5px black;
+    border-radius: 50%;
 }
 
 header {
+    font-family: cursive;
+    color: blueviolet;
+    font-size: 25px;
+    
+}
+
+.whole-pantry {
+    justify-content: center;
+    padding: 5px;
+    background-color: rgba(194, 78, 78, 0.986);
+    width: 50%;
 
 }
 
-h2 {
-
+.h2-container {
+    color: blueviolet;
+    font-weight: lighter;
+    font-size: larger;
+    padding: 5px;
+    background-color:rgb(255, 187, 0);
+    border: black 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
 }
 
 .pantry-container {
-
-}
-
-.canned {
-
-}
-
-.dry-goods {
-
+    justify-content: center;
+    width: 90%;
+    background-color: bisque;
+    border: 20px black;
 }
 
 .freezer-container {
-
+    justify-content: center;
+    width: 90%;
+    background-color: bisque;
 }
 
-.meat {
-
-}
-
-.veggies {
-
-}
-
-li {
-
-}
-
-img {
-    
-}

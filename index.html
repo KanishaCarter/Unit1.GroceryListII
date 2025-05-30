@@ -4,62 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery list</title>
-    <link rel="stylesheet" src="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Organized Grocery List</h1>
-    </header>
-
-    <div>
-        <h2>Pantry Items</h2>
+    <div class="header-container">
+        <header><h1>Organized Grocery List</h1></header>
     </div>
 
+    <div class="whole-pantry">
+    <div class="h2-container">
+        <h2>Pantry Items</h2>
+    </div>
     <div class="pantry-container" style="display: flex;">
-        <div class="canned" style="display: inline-block;">
+        <section class="canned" style="display: inline-block; gap: 20px;">
             <h3>Canned</h3>
                 <ul style="list-style-type:symbols();">
                     <li>Corn</li>
                     <li>Peas</li>
                     <li>Sweet Peas</li>
                 </ul>
-        </div>
-        <div class="dry-goods" style="display: inline-block;">
+            </section>
+        <section class="dry-goods" style="display: inline-block;">
             <h3>Dry Goods</h3>
             <ol style="list-style-type:upper-roman;">
             <li>Rice</li>
             <li>Spaghetti Noodles</li>
             </ol>
-        </div>
-        <div style="display: inline-block;">
+        </section>
+        <section style="display: inline-block;">
             <img src="pantry.png" alt="pantry pic"/>
-        </div>
+        </section>
     </div>
 
 
-        <div>
+    <div class="h2-container">
         <h2>Freezer Items</h2>
     </div>
-
+    
     <div class="freezer-container" style="display: flex;">
-        <div class="meat" style="display: inline-block;">
+        <section class="meat" style="display: inline-block;">
             <h3>Meat</h3>
                 <ul style="list-style-type:symbols();">
                     <li>Ground Beef</li>
                     <li>Chicken</li>
                     <li>Salmon</li>
                 </ul>
-        </div>
-        <div class="veggies" style="display: inline-block;">
+            </section>
+        <section class="veggies" style="display: inline-block;">
             <h3>Veggies</h3>
             <ol style="list-style-type:upper-roman;">
             <li>Broccoli Florets</li>
             <li>Spinach</li>
             </ol>
-        </div>
-        <div style="display: inline-block;">
+        </section>
+        <section style="display: inline-block;">
             <img src="freezer.png" alt="freezer pic"/>
-        </div>
+        </section>
+    </div>
     </div>
 </body>
 </html>
